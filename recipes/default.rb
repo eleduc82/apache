@@ -17,7 +17,7 @@ end
 
 include_recipe 'apache::websites'
 
-service package do
+service 'httpd' do
   action [:start, :enable]
 end
 
