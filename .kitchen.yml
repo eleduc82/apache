@@ -1,7 +1,7 @@
 ---
 driver:
   name: azurerm
-  subscription_id: 'a4973a08-b04b-4dc8-a441-24a0b75dce60'
+  subscription_id: <%= ENV['AZURE_SUBSCRIPTION_ID'] %>
   location: canadaeast
   machine_size: Standard_B1s
 
