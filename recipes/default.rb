@@ -15,7 +15,7 @@ package package do
   action :install
 end
 
-include_recipe 'apache::websites'
+# include_recipe 'apache::websites'
 
 service package do
   action [:start, :enable]
